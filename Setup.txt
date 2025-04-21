@@ -1,0 +1,7 @@
+1. Create Project next to this file
+npx create-next-app@latest my-portfolio --typescript
+2. add libaries
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+3. add to tailwind.config.js
+4. Add globals.css

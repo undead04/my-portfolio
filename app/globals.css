@@ -1,11 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #121212;
+  --foreground: #ffffff;
+  --primary-gradient: linear-gradient(to right, #ff4d7e, #c348db);
+  --orange-gradient: linear-gradient(to right, #ff7e00, #e6463b);
+  --blue-gradient: linear-gradient(to right, #4282ff, #7a49ff);
 }
 
-@theme inline {
+ inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -22,5 +25,24 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.primary-gradient-text {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.primary-gradient-bg {
+  background: var(--primary-gradient);
+}
+
+.orange-gradient-bg {
+  background: var(--orange-gradient);
+}
+
+.blue-gradient-bg {
+  background: var(--blue-gradient);
 }
