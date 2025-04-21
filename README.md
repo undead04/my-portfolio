@@ -1,24 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Developer Portfolio
+
+A modern, responsive developer portfolio website built with Next.js, React, and Tailwind CSS. This project showcases a sleek dark-themed design with gradient accents, inspired by current design trends.
+
+![Portfolio Preview](/public/profile.jpg)
+
+## Features
+
+- **Responsive Design**: Looks great on all devices, from mobile to desktop
+- **Dark Theme**: Modern dark aesthetic with carefully crafted gradient accents
+- **Interactive Elements**: Subtle animations and hover effects for enhanced user experience
+- **Fast Loading**: Built with performance in mind using Next.js and Turbopack
+- **SEO Friendly**: Proper semantic HTML structure for better search engine visibility
+
+## Technologies Used
+
+- **Next.js 15.3.1**: React framework with optimized performance
+- **React 19**: Modern UI library for building interactive interfaces
+- **TailwindCSS 4**: Utility-first CSS framework for rapid styling
+- **TypeScript**: Static typing for better code quality and developer experience
+- **Turbopack**: Fast, incremental bundler for improved development experience
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18.17 or later
+- npm or yarn package manager
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/yourusername/developer-portfolio.git
+   cd developer-portfolio
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## Customization
+
+This portfolio is designed to be easily customizable:
+
+- Edit `app/page.tsx` to update content
+- Modify styling in `app/globals.css`
+- Replace `/public/profile.jpg` with your own profile picture
+
+## Deployment
+
+This project can be easily deployed on Vercel, Netlify, or any other hosting platform that supports Next.js applications.
+
+## License
+
+MIT License
 
 ## Learn More
 
@@ -34,3 +84,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+"# my-portfolio"
