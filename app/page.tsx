@@ -154,7 +154,7 @@ export default function Home() {
         <h2 className="uppercase text-2xl font-bold mb-8 text-center">Contact</h2>
         <div className="max-w-md mx-auto px-4">
           <p className="text-center text-gray-400 mb-8">
-            I'm always open to new opportunities and collaborations. Feel free to reach out if you have a project in mind or just want to connect!
+            I&apos;m always open to new opportunities and collaborations. Feel free to reach out if you have a project in mind or just want to connect!
           </p>
           <div className="flex justify-center">
             <a href="mailto:contact@example.com" className="px-6 py-2 rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition">
