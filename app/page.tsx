@@ -12,7 +12,7 @@ export default function Home() {
     title: "Data Engineer / Backend Developer",
     email: "antran.261004@gmail.com",
     github: "https://github.com/undead04",
-    summary: "I am a Data Engineer and Backend Developer with experience in building data pipelines and backend systems. I am passionate about data and technology, and I am always looking for new challenges to learn and grow."
+    summary: "Final-year IT student with a strong interest in Data Engineering and Backend Development.I enjoy building data pipelines, working with databases, and developing backend systems. Currently seeking an internship or fresher opportunity to apply and grow my skills."
   };
 
   // Animation Variants
@@ -60,13 +60,13 @@ export default function Home() {
   const projects = [{
     image: "/project-placeholder.jpg",
     name: "Predict Toxic Comment (youtube)",
-    description: "Built a streaming data pipeline using Kafka and Spark to process comment data toxic from youtube",
+    description: "Built a real-time streaming pipeline using Kafka and Spark to process YouTube comments and detect toxic content using machine learning models.",
     github: "https://github.com/undead04/predict-toxic-comments",
-    technical: "Kafka, Spark, MongoDB, Docker"
+    technical: "Kafka, Spark, MongoDB, Docker, Redis"
   }, {
     image: "/project-placeholder.jpg",
     name: "ELT Weather",
-    description: "Designed an automated ELT process using Airflow and DBT to transform raw weather data into analytical models.",
+    description: "Build an automated ETL pipeline using Airflow and DBT to transform raw weather data into analytical models stored in PostgreSQL.",
     github: "https://github.com/undead04/ELT-Weather",
     technical: "Airflow, DBT, PostgreSQL, Docker"
   }];
