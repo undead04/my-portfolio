@@ -8,11 +8,11 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   const personalInfo = {
-    name: "Nguyen Van A",
+    name: "Trần Văn An",
     title: "Data Engineer / Backend Developer",
     email: "antran.261004@gmail.com",
-    github: "https://github.com/yourusername",
-    summary: "Crafting scalable data pipelines and robust backend architectures. I turn raw streams into actionable intelligence."
+    github: "https://github.com/undead04",
+    summary: "I am a Data Engineer and Backend Developer with experience in building data pipelines and backend systems. I am passionate about data and technology, and I am always looking for new challenges to learn and grow."
   };
 
   // Animation Variants
@@ -59,16 +59,16 @@ export default function Home() {
 
   const projects = [{
     image: "/project-placeholder.jpg",
-    name: "Real-time Data Pipeline",
-    description: "Built a streaming data pipeline using Kafka and Spark to process IoT sensor data in real-time.",
-    github: "#",
-    technical: "Kafka, Spark, MongoDB"
+    name: "Predict Toxic Comment (youtube)",
+    description: "Built a streaming data pipeline using Kafka and Spark to process comment data toxic from youtube",
+    github: "https://github.com/undead04/predict-toxic-comments",
+    technical: "Kafka, Spark, MongoDB, Docker"
   }, {
     image: "/project-placeholder.jpg",
-    name: "E-commerce ETL",
-    description: "Designed an automated ETL process using Airflow and DBT to transform raw sales data into analytical models.",
-    github: "#",
-    technical: "Airflow, DBT, PostgreSQL"
+    name: "ELT Weather",
+    description: "Designed an automated ELT process using Airflow and DBT to transform raw weather data into analytical models.",
+    github: "https://github.com/undead04/ELT-Weather",
+    technical: "Airflow, DBT, PostgreSQL, Docker"
   }];
 
   return (
@@ -236,7 +236,7 @@ export default function Home() {
                 <div className="p-8 relative z-10 bg-black/40 backdrop-blur-xl border-t border-white/10 -mt-2">
                   <div className="flex justify-between items-start mb-4">
                     <h4 className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">{project.name}</h4>
-                    <a href={project.github} className="p-2 rounded-full bg-white/5 hover:bg-white hover:text-black transition-all">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-white/5 hover:bg-white hover:text-black transition-all">
                       <Github className="w-5 h-5" />
                     </a>
                   </div>
